@@ -3,15 +3,16 @@ body{
   background: linear-gradient(to right,darkblue,black);
 }
 
-
 .cont{
   display: inline-block;
   margin-top: 20px;
   background-color: white;
   box-shadow: 5px 10px 15px 5px green;
+  border-radius: 100px 120px 30px 120px;
 }
 
 .projImg{
   margin: 14px;
   width: 480px;
+  border-radius: 100px 100px 88px 86px;
 }
