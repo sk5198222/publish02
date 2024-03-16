@@ -22,6 +22,8 @@ button{
   border-radius: 50%;
   font-weight: bold;
   border: none;
+  width: 51px;
+  height: 50px;
 }
 
 .opBtns{
