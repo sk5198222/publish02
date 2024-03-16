@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="/css/calculator.css">
+</head>
+<body onkeydown="eventhdl(event);">
+  <div class="in">
+    <h3></h3>
+  </div>
+
+  <div class="in">
+    <button onclick="
+      assign('1');
+    ">1</button>
+    <button onclick="
+      assign('2');
+    ">2</button>
+    <button onclick="
+      assign('3');
+    ">3</button>
+    <button class="opBtns" onclick="
+    assign(' + ');
+  ">+</button>
+  </div>
+
+  <div class="in">
+    <button onclick="
+      assign('4');
+    ">4</button>
+    <button onclick="
+      assign('5');
+    ">5</button>
+    <button onclick="
+      assign('6');
+    ">6</button>
+    <button class="opBtns" onclick="
+    assign(' - ');
+  ">-</button>
+  </div>
+
+  <div class="in">
+    <button onclick="
+      assign('7');
+    ">7</button>
+    <button onclick="
+      assign('8');
+    ">8</button>
+    <button onclick="
+      assign('9');
+    ">9</button>
+    <button class="opBtns" onclick="
+    assign(' * ');
+  ">*</button>
+  </div>
+
+  <div class="in">
+    <button onclick="
+      assign('0');
+    ">0</button>
+    <button onclick="
+      assign('.');
+    ">.</button>
+    <button class="splOpBtns" onclick="
+      res(calc);
+    ">=</button>  
+    <button class="opBtns" onclick="
+    assign(' / ');
+  ">/</button>
+  </div>
+  <div class="in">
+    <button class="splOpBtns" onclick="
+      clearA();
+    ">C</button>
+  </div>
+
+  <script src="/js/calculator.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+*{
+  font-family: arial;
+}
+
+body{
+  background: linear-gradient(to left,black, darkblue);
+  margin: 6px 0px 0px 16px;
+}
+
+.in{
+  margin-left: 26px;
+  margin-top: 12px;
+}
+
+button{
+  margin-right: 9px;
+  padding: 15px 21px 15px 21px;
+  background-color: gray;
+  color: white;
+  font-size: medium;
+  border-radius: 8px;
+  border-radius: 50%;
+  font-weight: bold;
+  border: none;
+}
+
+.opBtns{
+  background-color: orange;
+  color: white;
+}
+
+h3{
+  font-size: xx-large;
+  font-weight: normal;
+  color: white;
+}
